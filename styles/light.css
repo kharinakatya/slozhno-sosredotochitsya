@@ -17,12 +17,12 @@
   --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
   } 
 
-  .page.theme_light {
-    width: 1024px;
-    justify-content: center;
-    font-size: 18px;
-    font-family: var(--main-font, 'Arial'), sans-serif;
-  }
+.page.theme_light {
+  width: 1024px;
+  justify-content: center;
+  font-size: 18px;
+  font-family: var(--main-font, 'Arial'), sans-serif;
+}
 
 
 @media (prefers-color-scheme: light) {
