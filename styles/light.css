@@ -11,7 +11,7 @@
   --decor-color: #353430; /*цвет уголков */
   --decor-text-color: #353430; /* цвет у декоративного текста в баннере*/
   --shadow-text-color: #FF8DCB; /* цвет тени у заголовка h1*/
-  --text-color: #353430; /* цвет текста в абзаце */ 
+  --text-color: #353430; /* цвет текста в абзаце */
   --hover-text-color: rgba(50, 49, 45, 0.4);
   --bg-image: url('../images/cover-image-light.png'); /*картинка для баннера*/
   --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
@@ -38,7 +38,7 @@
   --decor-color: #353430; /*цвет уголков */
   --decor-text-color: #353430; /* цвет у декоративного текста в баннере*/
   --shadow-text-color: #FF8DCB; /* цвет тени у заголовка h1*/
-  --text-color: #353430; /* цвет текста в абзаце */ 
+  --text-color: #353430; /* цвет текста в абзаце */
   --hover-text-color: rgba(50, 49, 45, 0.4);
   --bg-image: url('../images/cover-image-light.png'); /*картинка для баннера*/
   --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
