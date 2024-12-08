@@ -167,6 +167,7 @@ button {
 
 .decor-title {
   background-color: var(--pink);
+  color: var(--decor-text-color);
 }
 
 .header__paragraph {
