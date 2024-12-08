@@ -3,12 +3,13 @@
   --pink: #FF8DCB;
   --psevdo-text-color: transparent;
   --h1-text-color: #FFC2E6; /* цвет заголовка h1 */
+  --h2-text-color: #353430; /* цвет текста у заголовков h2 */
+  --h3-text-color: #353430; /* цвет для заголовка h3 */
+  --h4-text-color: #353430; /* цвет для заголовка h4 */
   --main-font: 'IBM Plex Mono';
   --button-text-color: #353430;
-  --h2-text-color: #353430; /* цвет текста у заголовков h2 */
   --decor-color: #353430; /*цвет уголков */
   --decor-text-color: #353430; /* цвет у декоративного текста в баннере*/
-  --paragraph-text-color: #353430; /* цвет текста слева */
   --shadow-text-color: #FF0070; /* цвет тени у заголовка h1*/
   --text-color: #353430; /* цвет текста в абзаце */ 
   --hover-text-color: rgba(50, 49, 45, 0.4);
@@ -17,31 +18,25 @@
   --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
   } 
 
-  .page.theme_light {
-    background-image: var(--bg-image);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: var(--main-font, 'monospace');
-    background-color: var(--bg-color);
-    max-width: 1024px;
-  }
-
+.page.theme_light {
+  justify-content: center;
+  font-size: 18px;
+  font-family: var(--main-font), monospace;
+}
 
 @media (prefers-color-scheme: light) {
 :root {
   --bg-color: #FFF1F7; /*цвет фона */
   --pink: #FF8DCB;
-  --psevdo-text-color: #FF0070;
   --psevdo-text-color: transparent;
-  --button-text-color: #353430;
   --h1-text-color: #FFC2E6; /* цвет заголовка h1 */
-  --main-font: 'IBM Plex Mono';
   --h2-text-color: #353430; /* цвет текста у заголовков h2 */
+  --h3-text-color: #353430; /* цвет для заголовка h3 */
+  --h4-text-color: #353430; /* цвет для заголовка h4 */
+  --main-font: 'IBM Plex Mono';
+  --button-text-color: #353430;
   --decor-color: #353430; /*цвет уголков */
   --decor-text-color: #353430; /* цвет у декоративного текста в баннере*/
-  --paragraph-text-color: #353430; /* цвет текста слева */
   --shadow-text-color: #FF0070; /* цвет тени у заголовка h1*/
   --text-color: #353430; /* цвет текста в абзаце */ 
   --hover-text-color: rgba(50, 49, 45, 0.4);
@@ -50,5 +45,3 @@
   --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
   }
 }
-
-/* Остальные стили */

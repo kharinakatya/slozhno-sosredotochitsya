@@ -1,37 +1,39 @@
 .page.theme_dark {
   --bg-color: #000028; /*цвет фона */
   --pink: #FF0070;
-  --button-text-color: #FF0070;
   --psevdo-text-color: #FF0070;
-  --decor-color: #FF0070; /*цвет уголков */
-  --h1-text-color: #DB00FF; /* цвет заголовка h1 */
   --main-font: 'IBM Plex Mono';
+  --h1-text-color: #DB00FF; /* цвет заголовка h1 */
   --h2-text-color: #FF0070; /* цвет текста у заголовков h2 */
+  --h3-text-color: #000028; /* цвет для заголовка h3 */
+  --h4-text-color: #000028; /* цвет для заголовка h4 */
   --decor-text-color: #000028; /* цвет у декоративного текста в баннере*/
-  --paragraph-text-color: #FF0070; /* цвет текста слева */
+  --decor-color: #FF0070; /*цвет уголков */
+  --button-text-color: #FF0070;
   --shadow-text-color: #FF0070; /* цвет тени у заголовка h1*/
   --text-color: #F1B2CE; /* цвет текста в абзаце */ 
   --hover-text-color: rgba(255, 0, 112, 0.4);
   --bg-image: url('../images/cover-image-dark.png'); /*картинка для баннера*/
   --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
   --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
-}
+  }
 
 :root.theme-dark {
   --bg-color: #000028; /*цвет фона */
   --pink: #FF0070;
-  --button-text-color: #FF0070;
-  --decor-color: #FF0070; /*цвет уголков */
   --psevdo-text-color: #FF0070;
-  --h1-text-color: #DB00FF; /* цвет заголовка h1 */
   --main-font: 'IBM Plex Mono';
+  --h1-text-color: #DB00FF; /* цвет заголовка h1 */
   --h2-text-color: #FF0070; /* цвет текста у заголовков h2 */
+  --h3-text-color: #000028; /* цвет для заголовка h3 */
+  --h4-text-color: #000028; /* цвет для заголовка h4 */
   --decor-text-color: #000028; /* цвет у декоративного текста в баннере*/
-  --paragraph-text-color: #FF0070; /* цвет текста слева */
+  --decor-color: #FF0070; /*цвет уголков */
+  --button-text-color: #FF0070;
   --shadow-text-color: #FF0070; /* цвет тени у заголовка h1*/
   --text-color: #F1B2CE; /* цвет текста в абзаце */ 
   --hover-text-color: rgba(255, 0, 112, 0.4);
   --bg-image: url('../images/cover-image-dark.png'); /*картинка для баннера*/
   --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
   --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
-}
+  }
