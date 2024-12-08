@@ -426,8 +426,8 @@ img {
       min-height: 668px;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(4, 1fr);
-      padding: 10px;
       margin-bottom: 40px;
+      padding: 10px;
   }
 
   .header__theme-menu-list {
@@ -449,11 +449,13 @@ img {
   }
 
   .decorated-zone::before {
-      margin: 0;
+      margin-top: 10px;
+      margin-right: 10px;
   }
 
   .decorated-zone::after {
-      margin: 0;
+      margin-bottom: 10px;
+      margin-left: 10px;
   }
 
   .header__theme-menu {
@@ -537,7 +539,6 @@ img {
       grid-template-columns: repeat(2, 1fr);
       width: 375px;
       min-height: 668px;
-      padding: 10px;
   }
 
   .footer__title {
