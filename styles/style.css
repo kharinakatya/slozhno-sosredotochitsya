@@ -437,7 +437,7 @@ img {
       padding: 0;
   }
 
-  h2 {
+  h2:not(.section_images-title) {
       width: 355px;
   }
 
