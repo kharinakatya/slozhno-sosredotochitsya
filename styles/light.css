@@ -12,17 +12,21 @@
   --shadow-text-color: #FF0070; /* цвет тени у заголовка h1*/
   --text-color: #353430; /* цвет текста в абзаце */ 
   --hover-text-color: rgba(50, 49, 45, 0.4);
-  --bg-image: url(../images/cover-image-light.png); /*картинка для баннера*/
+  --bg-image: url('../images/cover-image-light.png'); /*картинка для баннера*/
   --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
   --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
   } 
 
-.page.theme_light {
-  width: 1024px;
-  justify-content: center;
-  font-size: 18px;
-  font-family: var(--main-font, 'Arial'), sans-serif;
-}
+  .page.theme_light {
+    background-image: var(--bg-image);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: var(--main-font, 'monospace');
+    background-color: var(--bg-color);
+    max-width: 1024px;
+  }
 
 
 @media (prefers-color-scheme: light) {
