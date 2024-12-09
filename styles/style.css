@@ -538,7 +538,7 @@ img {
   }
 
   .footer__title {
-      grid-column: 1;
+      grid-column: 1 / 3;
       font-size: var(--h2-font-size);
   }
 }
