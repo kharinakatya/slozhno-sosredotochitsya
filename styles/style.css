@@ -49,6 +49,7 @@ button {
 .header__theme-menu-button {
   font-size: 18px;
   line-height: 18px;
+  height: 26px;
   color: var(--button-text-color);
   font-weight: 400;
   text-transform: lowercase;
