@@ -510,6 +510,10 @@ img {
       margin-bottom: 50px;
   }
 
+  .section_images-title {
+    margin-bottom: 10px;
+}
+
   .section_images {
       max-width: 375px;
       padding: 0 10px;
