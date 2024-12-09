@@ -326,6 +326,10 @@ img {
       max-width: 768px;
   }
 
+  h2:not(.section_images-title) {
+    max-width: 236px;
+  }
+
   h3:not(.section-title) {
       max-width: 728px;
   }
