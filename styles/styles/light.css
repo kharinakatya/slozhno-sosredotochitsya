@@ -1,0 +1,41 @@
+.page.theme_light {
+  --bg-color: #FFF1F7; /*цвет фона */
+  --pink: #FF8DCB;
+  --psevdo-text-color: transparent;
+  --h1-text-color: #FFC2E6; /* цвет заголовка h1 */
+  --h2-text-color: #353430; /* цвет текста у заголовков h2 */
+  --h3-text-color: #353430; /* цвет для заголовка h3 */
+  --h4-text-color: #353430; /* цвет для заголовка h4 */
+  --main-font: 'IBM Plex Mono';
+  --button-text-color: #353430;
+  --decor-color: #353430; /*цвет уголков */
+  --decor-text-color: #353430; /* цвет у декоративного текста в баннере*/
+  --shadow-text-color: #FF8DCB; /* цвет тени у заголовка h1*/
+  --text-color: #353430; /* цвет текста в абзаце */
+  --hover-text-color: rgba(50, 49, 45, 0.4);
+  --bg-image: url('../images/cover-image-light.png'); /*картинка для баннера*/
+  --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
+  --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
+  }
+
+@media (prefers-color-scheme: light) {
+:root {
+  --bg-color: #FFF1F7; /*цвет фона */
+  --pink: #FF8DCB;
+  --psevdo-text-color: transparent;
+  --h1-text-color: #FFC2E6; /* цвет заголовка h1 */
+  --h2-text-color: #353430; /* цвет текста у заголовков h2 */
+  --h3-text-color: #353430; /* цвет для заголовка h3 */
+  --h4-text-color: #353430; /* цвет для заголовка h4 */
+  --main-font: 'IBM Plex Mono';
+  --button-text-color: #353430;
+  --decor-color: #353430; /*цвет уголков */
+  --decor-text-color: #353430; /* цвет у декоративного текста в баннере*/
+  --shadow-text-color: #FF8DCB; /* цвет тени у заголовка h1*/
+  --text-color: #353430; /* цвет текста в абзаце */
+  --hover-text-color: rgba(50, 49, 45, 0.4);
+  --bg-image: url('../images/cover-image-light.png'); /*картинка для баннера*/
+  --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
+  --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
+  }
+}
