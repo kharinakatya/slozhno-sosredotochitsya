@@ -1,4 +1,4 @@
-:root.theme_light {
+.page.theme_light {
   --bg-color: #FFF1F7; /*цвет фона */
   --pink: #FF8DCB;
   --psevdo-text-color: transparent;
