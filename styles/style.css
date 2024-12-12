@@ -37,7 +37,6 @@ h4 {
   max-width: 1024px;
   min-height: 668px;
   height: 100vh;
-  padding-top: 20px;
   margin-bottom: 60px;
 }
 
@@ -84,6 +83,7 @@ button {
   display: flex;
   flex-direction: row;
   column-gap: 10px;
+  padding-top: 20px;
 }
 
 .rec {
@@ -146,7 +146,7 @@ button {
 }
 
 .header__title {
-  font-size: var(--h1-font-size);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
   font-weight: 700;
   color: var(--h1-text-color);
@@ -165,7 +165,6 @@ button {
 .heading__paragraph {
   align-self: auto;
   justify-self: end;
-  padding-top: 62px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -369,20 +368,16 @@ img {
   .header__theme-menu {
     justify-self: end;
     margin-top: 172px;
-    margin-bottom: 173px;
     padding: 0;
   }
 
 h2:not(.section_images-title) {
   max-width: 236px;
   }
-  
-  .header {
-  min-height: 1024px;
-  }
+
 
   .header__title {
-  margin-bottom: 162px;
+
   }
 
   .header__paragraph {
@@ -400,6 +395,52 @@ h2:not(.section_images-title) {
     display: flex;
     flex-direction: column;
     }
+
+    .header__title {
+      font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    }
+
+    .header__title {
+      margin-bottom: 55px;
+    }
+      
+    .header__theme-menu {
+      margin-top: 75px;
+      margin-bottom: 65px;
+    }
+
+    .header__paragraph {
+      max-width: 700px;
+  }
+}
+
+
+@media screen and (width <=575px) {
+  .header__paragraph {
+    max-width: 575px;
+}
+
+.heading__paragraph {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+}
+
+.decorated-zone::after {
+  bottom: 10px;
+  left: 10px;
+}
+
+.header__title {
+  margin-bottom: 55px;
+  padding: 0;
+}
+  
+.header__theme-menu {
+  margin-top: 75px;
+  margin-bottom: 65px;
+}
+
 }
 
 @media (width <=375px) {
@@ -459,7 +500,7 @@ h2:not(.section_images-title) {
   }
 
   .header__title {
-      font-size: var(--h1-font-size);
+      font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
       line-height: 95.7px;
       margin-top: 65px;
       margin-bottom: 55px;
@@ -470,6 +511,8 @@ h2:not(.section_images-title) {
   .heading__paragraph {
     padding-top: 0;
     padding-bottom: 66px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
 
