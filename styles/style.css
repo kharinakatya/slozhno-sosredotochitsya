@@ -1,5 +1,3 @@
-/* размер 1024px и больше */
-
 .page {
   background-image: var(--bg-image);
   background-position: center;
@@ -317,7 +315,7 @@ img {
 }
 
 .footer__title {
-  font-size: var(--h1-font-size);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   font-weight: 700;
   color: var(--h1-text-color);
@@ -328,9 +326,7 @@ img {
   align-self: center;
 }
 
-
 @media screen and (width <1024px) {
-
   img {
       padding: 0;
   }
@@ -340,13 +336,12 @@ img {
   }
 
   .section_content__list-items {
-    display: flex;
-    flex-direction: column;
+      display: flex;
+      flex-direction: column;
   }
 
-
   .section_content__list-item {
-    max-width: 984px;
+      max-width: 984px;
   }
 
   .footer_section {
@@ -354,109 +349,94 @@ img {
   }
 
   .section-text {
-    max-width: 984px;
+      max-width: 984px;
   }
 }
 
 @media screen and (width <=768px) {
-
   .header__theme-menu-list {
-    display: grid;
-    row-gap: 10px;
-    padding-right: 20px;
+      display: grid;
+      row-gap: 10px;
+      padding-right: 20px;
   }
 
   .header__theme-menu {
-    justify-self: end;
-    margin-top: 172px;
-    padding: 0;
+      justify-self: end;
+      margin-top: 172px;
+      padding: 0;
   }
 
-.section__list-items {
-  max-width: 472px;
-}
+  .section__list-items {
+      max-width: 472px;
+  }
 
-
-h2:not(.section_images-title) {
-  max-width: 236px;
+  h2:not(.section_images-title) {
+      max-width: 236px;
   }
 
   .header__paragraph {
-  max-width: 364px;
+      max-width: 364px;
   }
 }
 
 @media screen and (width <=700px) {
-
   .section {
-    flex-direction: column;
+      flex-direction: column;
   }
 
   .images {
-    display: flex;
-    flex-direction: column;
-    }
+      display: flex;
+      flex-direction: column;
+  }
 
-    .header__title {
+  .header__title {
       font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
       margin-bottom: 55px;
-    }
-      
-    .header__theme-menu {
+  }
+
+  .header__theme-menu {
       margin-top: 75px;
       margin-bottom: 65px;
-    }
+  }
 
-    .header__paragraph {
+  .header__paragraph {
       max-width: 700px;
   }
 }
 
-
 @media screen and (width <=575px) {
   .header__paragraph {
-    max-width: 575px;
-}
+      max-width: 575px;
+  }
 
-.heading__paragraph {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 0;
-}
+  .heading__paragraph {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 0;
+  }
 
-.decorated-zone::after {
-  bottom: 10px;
-  left: 10px;
-}
+  .decorated-zone::after {
+      bottom: 10px;
+      left: 10px;
+  }
 
-.header__title {
-  margin-bottom: 55px;
-  padding: 0;
-}
-  
-.header__theme-menu {
-  margin-top: 75px;
-  margin-bottom: 65px;
-}
-
+  .header__title {
+      padding: 0;
+  }
 }
 
 @media (width <=375px) {
-
   .page {
       max-width: 375px;
   }
 
   .header {
       max-width: 375px;
-      min-height: 668px;
       margin-bottom: 40px;
       padding: 10px;
   }
 
   .header__theme-menu-list {
-      display: grid;
-      gap: 10px;
       padding: 0;
   }
 
@@ -483,36 +463,33 @@ h2:not(.section_images-title) {
   }
 
   .header__theme-menu {
-      padding: 0;
       margin-bottom: 0;
       margin-top: 65px;
   }
 
   .rec::before {
-    margin-top: 10px;
+      margin-top: 10px;
   }
 
   .rec::after {
-    margin-right: 19px;
-    margin-top: 10px;
+      margin-right: 19px;
+      margin-top: 10px;
   }
 
   .header__title {
       font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
       line-height: 95.7px;
       margin-top: 65px;
-      margin-bottom: 55px;
       padding-top: 0;
       padding-bottom: 0;
   }
 
   .heading__paragraph {
-    padding-top: 0;
-    padding-bottom: 66px;
-    padding-left: 0;
-    padding-right: 0;
+      padding-top: 0;
+      padding-bottom: 66px;
+      padding-left: 0;
+      padding-right: 0;
   }
-
 
   .header__paragraph {
       max-width: 355px;
@@ -524,7 +501,6 @@ h2:not(.section_images-title) {
 
   .section {
       max-width: 375px;
-      flex-direction: column;
       padding: 0 10px;
       margin-bottom: 50px;
   }
@@ -548,8 +524,8 @@ h2:not(.section_images-title) {
   }
 
   .section_images-title {
-    margin-bottom: 10px;
-}
+      margin-bottom: 10px;
+  }
 
   .section_images {
       max-width: 375px;
@@ -569,13 +545,12 @@ h2:not(.section_images-title) {
   }
 
   .footer_section {
-      grid-template-columns: repeat(2, 1fr);
       max-width: 375px;
       min-height: 668px;
   }
 
   .footer__title {
       grid-column: 1 / 3;
-      font-size: var(--h2-font-size);
+      font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }

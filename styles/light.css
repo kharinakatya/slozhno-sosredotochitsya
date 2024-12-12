@@ -14,8 +14,6 @@
   --text-color: #353430; /* цвет текста в абзаце */
   --hover-text-color: rgba(50, 49, 45, 0.4);
   --bg-image: url('../images/cover-image-light.png'); /*картинка для баннера*/
-  --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
-  --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
   }
 
 @media (prefers-color-scheme: light) {
@@ -35,7 +33,5 @@
   --text-color: #353430; /* цвет текста в абзаце */
   --hover-text-color: rgba(50, 49, 45, 0.4);
   --bg-image: url('../images/cover-image-light.png'); /*картинка для баннера*/
-  --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /* размер заголовка на десктопе и на планшете */
-  --h2-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /* размер большого заголовка на мобилке */
   }
 }
