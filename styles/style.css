@@ -375,11 +375,6 @@ h2:not(.section_images-title) {
   max-width: 236px;
   }
 
-
-  .header__title {
-
-  }
-
   .header__paragraph {
   max-width: 364px;
   }
@@ -398,9 +393,6 @@ h2:not(.section_images-title) {
 
     .header__title {
       font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    }
-
-    .header__title {
       margin-bottom: 55px;
     }
       
