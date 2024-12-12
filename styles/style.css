@@ -38,6 +38,7 @@ h4 {
   min-height: 668px;
   height: 100vh;
   padding-top: 20px;
+  margin-bottom: 60px;
 }
 
 button {
@@ -165,6 +166,8 @@ button {
   align-self: auto;
   justify-self: end;
   padding-top: 62px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .header__paragraph {
@@ -174,7 +177,6 @@ button {
   font-size: 18px;
   line-height: 23.4px;
   justify-self: end;
-  margin-right: 20px;
 }
 
 .section {
@@ -184,7 +186,6 @@ button {
   max-width: 1024px;
   padding: 0 20px;
   margin-bottom: 80px;
-  margin-top: 60px;
 }
 
 .section-text {
@@ -414,8 +415,6 @@ h2:not(.section_images-title) {
       padding: 10px;
   }
 
-  
-
   .header__theme-menu-list {
       display: grid;
       gap: 10px;
@@ -445,7 +444,6 @@ h2:not(.section_images-title) {
   }
 
   .header__theme-menu {
-      justify-self: end;
       padding: 0;
       margin-bottom: 0;
       margin-top: 65px;
