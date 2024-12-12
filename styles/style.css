@@ -165,6 +165,7 @@ button {
 .heading__paragraph {
   align-self: auto;
   justify-self: end;
+  padding-top: 52px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -370,6 +371,11 @@ img {
     margin-top: 172px;
     padding: 0;
   }
+
+.section__list-items {
+  max-width: 472px;
+}
+
 
 h2:not(.section_images-title) {
   max-width: 236px;
