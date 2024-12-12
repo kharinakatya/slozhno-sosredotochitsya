@@ -194,6 +194,7 @@ button {
 }
 
 .section__list-items {
+  max-width: 648px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -409,8 +410,6 @@ h2:not(.section_images-title) {
   .header {
       max-width: 375px;
       min-height: 668px;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(4, 1fr);
       margin-bottom: 40px;
       padding: 10px;
   }
@@ -446,7 +445,6 @@ h2:not(.section_images-title) {
   }
 
   .header__theme-menu {
-      grid-row: 1;
       justify-self: end;
       padding: 0;
       margin-bottom: 0;
@@ -464,11 +462,18 @@ h2:not(.section_images-title) {
 
   .header__title {
       font-size: var(--h1-font-size);
-      grid-row: 2;
       line-height: 95.7px;
       margin-top: 65px;
       margin-bottom: 55px;
+      padding-top: 0;
+      padding-bottom: 0;
   }
+
+  .heading__paragraph {
+    padding-top: 0;
+    padding-bottom: 66px;
+  }
+
 
   .header__paragraph {
       max-width: 355px;
